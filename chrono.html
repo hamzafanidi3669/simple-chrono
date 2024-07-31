@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    
+
+<div id="t1"></div>
+
+
+
+
+<script>
+    function horloge(){
+
+    let t1=document.getElementById('t1')
+    t1.innerHTML="<h1>bonjour <span>{"+n+"}</span> </h1>" 
+                        }
+    let n=0 //ila declarenaha flbdya makib9a tal3 walo
+    
+    // window.setInterval(() => {n++;horloge();}, 1000);  //hna ra gha b7ala glna lih lfunction hahya awla recoie uktebnaha
+    window.setInterval(function(){n++;horloge();}, 1000);
+    
+    
+</script>
+</body>
+</html>
+<!-- 
+npm install --global create-react-app
+oula -g 
+
+npx create-react-app mmeiraki
+-->
